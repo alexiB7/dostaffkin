@@ -284,6 +284,16 @@
 }
 
 @media (max-width: 420px) {
+    .main-block-title {
+        font-size: 12px;
+        color: #7C7C7C;
+    }
+
+    .main-route .main-block-title,
+    .main-package .main-block-title {
+        margin-bottom: 6px;
+    }
+
     .main-sizes {
         grid-template-columns: repeat(2, 1fr);
     }
